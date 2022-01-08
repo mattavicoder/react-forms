@@ -4,8 +4,8 @@ export interface IUserForm {
     MiddleName: string,
     Email: string,
     Gender: string,
-    DateOfBirth: Date,
-    PhoneNumber: number,
+    DateOfBirth?: Date,
+    PhoneNumber?: number,
     Address: IUserAddress
 }
 
